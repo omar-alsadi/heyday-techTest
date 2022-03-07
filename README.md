@@ -1,27 +1,19 @@
-# TechTest
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Clone the App
 
-## Code scaffolding
+<!-- Install the dependencies -->
+- Run `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To show the (1st, 2nd, 3rd) solutions on terminal cli please run:
 
-## Build
+`npx ts-node src/app/components/Question(1, 2 or 3).ts`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To show the 4th and 5th solutions, please: 
 
-## Running unit tests
+- Run `ng serve`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+for a dev server. Navigate to `http://localhost:4200/`.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The app will automatically reload if you change any of the source files.

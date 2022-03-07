@@ -1,0 +1,11 @@
+<div id="slideshow">
+    <div class="img" [class.loading]="hasLoaded"></div>
+    <div class="img" [class.loading]="hasLoaded"></div>
+    <div class="img" [class.loading]="hasLoaded"></div>
+    <div class="img" [class.loading]="hasLoaded"></div>
+</div>
+    <hr>
+<div>
+    <button id="btn" *ngIf="!hasStarted" (click)="toggleSlider()">Start</button>
+    <button id="btn" *ngIf="hasStarted" (click)="toggleSlider()">Stop</button>
+</div>
